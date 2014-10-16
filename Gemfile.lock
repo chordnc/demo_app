@@ -1,6 +1,18 @@
+GIT
+  remote: git://github.com/alno/irwi.git
+  revision: df0c21c14b330c6e5aef60e343593d9dcf92f99e
+  specs:
+    irwi (0.4.2)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      diff-lcs (>= 1.1.2)
+      rails_autolink (>= 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     actionmailer (3.2.3)
       actionpack (= 3.2.3)
       mail (~> 2.4.4)
@@ -37,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -69,6 +82,8 @@ GEM
       activesupport (= 3.2.3)
       bundler (~> 1.0)
       railties (= 3.2.3)
+    rails_autolink (1.1.6)
+      rails (> 3.1)
     railties (3.2.3)
       actionpack (= 3.2.3)
       activesupport (= 3.2.3)
@@ -103,7 +118,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   coffee-rails (= 3.2.2)
+  irwi!
   jquery-rails (= 2.0.1)
   pg (= 0.12.2)
   rails (= 3.2.3)
